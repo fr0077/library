@@ -1,0 +1,3 @@
+sshfs ccj:/ccj/u/fujii /Volumes/ccj
+cd /Volumes/ccj
+

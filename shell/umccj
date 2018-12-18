@@ -1,0 +1,6 @@
+if [ `pwd | grep '^/Volumes/ccj'` ]; then
+  cd
+fi
+
+umount /Volumes/ccj
+

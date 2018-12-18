@@ -1,0 +1,28 @@
+pi=a(1)*4
+
+define tan(x){
+  scale=15;
+  return s(x)/c(x)
+}
+
+define pow(x,y){
+  return (e(y*l(x)))
+}
+
+define asin(x){
+  return a(x/sqrt(1-x^2))
+}
+
+define acos(x){
+  return a(sqrt(1-x^2)/x)
+}
+
+define torad(x){
+  scale=15;
+  return x/180*pi
+}
+
+define todeg(x){
+  scale=15;
+  return x/pi*180
+}

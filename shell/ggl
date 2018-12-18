@@ -1,0 +1,10 @@
+while [ ! $1 = "" ]
+do
+  keywords+="$1+"
+  shift
+done
+keywords=${keywords%+}
+
+url="https://www.google.co.jp/search?q=$keywords"
+open "$url" "/Applications/Google Chrome.app"
+
