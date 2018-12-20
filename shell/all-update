@@ -1,0 +1,6 @@
+tlmgr-update
+pip-update
+pip3-update
+brew upgrade --cleanup
+brew cask upgrade
+vi-update
