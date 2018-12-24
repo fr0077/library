@@ -1,1 +1,1 @@
-sudo tlmgr update --all
+tlmgr update --all
