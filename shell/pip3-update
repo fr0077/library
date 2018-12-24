@@ -1,1 +1,1 @@
-pip3 list -o | awk '{print $1}' | xargs pip install -U
+pip3 list --outdated | tail +3 | awk '{print $1}' | xargs pip3 install --upgrade
