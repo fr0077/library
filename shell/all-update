@@ -1,5 +1,5 @@
 tlmgr-update
-pip3-update
+pip-update
 brew upgrade --cleanup
 brew cask upgrade
 vi-update
