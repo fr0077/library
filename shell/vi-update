@@ -1,1 +1,1 @@
-vi +PlugUpdate +qall
+vi +PlugUpdate +UpdateRemotePlugins +qall
