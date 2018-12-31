@@ -2,4 +2,5 @@ tlmgr-update
 pip-update
 brew upgrade --cleanup
 brew cask upgrade
+npm update
 vi-update

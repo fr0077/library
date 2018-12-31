@@ -1,0 +1,31 @@
+#!/bin/bash
+
+help='
+fill - Fill terminal with string.
+
+usage:
+  -h        Show help (this document).
+  -s "str"  Fill terminal with specified string.
+            If this option is not set, "-" will be used.
+'
+
+while getopts hs: OPT
+do
+  case $OPT in
+    s)
+      str=$OPTARG;;
+    h)
+      echo "$help";;
+    *)
+      echo "$help";;
+  esac
+done
+
+cols=$(tput cols)
+str=${str:--}
+strlen=${#str}
+counts=$((cols/strlen))
+endstrlen=$((cols-counts*strlen))
+jot -n -b "$str" -s '' $counts
+echo ${str:0:endstrlen}
+
