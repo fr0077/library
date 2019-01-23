@@ -1,8 +1,0 @@
-tlmgr-update
-pip-update
-brew upgrade
-brew cask upgrade
-npm update
-vi-update
-stack upgrade
-

@@ -1,0 +1,15 @@
+pip3 list --outdated | tail +3 | awk '{print $1}' | xargs pip3 install --upgrade
+pip list --outdated | tail +3 | awk '{print $1}' | xargs pip install --upgrade
+
+brew upgrade
+brew cask upgrade
+brew cleanup
+
+npm update
+
+nvim +PlugUpdate +UpdateRemotePlugins +qall
+
+stack upgrade
+
+tlmgr update --all
+tlmgr backup --clean=0 --all
