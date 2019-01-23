@@ -1,0 +1,3 @@
+tlmgr backup --clean=0 --all
+brew cleanup
+
