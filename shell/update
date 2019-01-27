@@ -6,6 +6,7 @@ pip list --outdated | tail +3 | awk '{print $1}' | xargs pip install --upgrade
 brew upgrade
 brew cask upgrade
 
+npm install -g npm
 npm update
 
 nvim +PlugUpdate +UpdateRemotePlugins +qall
