@@ -2,4 +2,6 @@
 
 tlmgr backup --clean=0 --all
 brew cleanup
+nvim +PlugClean +qall
+
 

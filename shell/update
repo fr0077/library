@@ -1,7 +1,6 @@
 #!/bin/bash -x
 
 pip3 list --outdated | tail +3 | awk '{print $1}' | xargs pip3 install --upgrade
-pip list --outdated | tail +3 | awk '{print $1}' | xargs pip install --upgrade
 
 brew upgrade
 brew cask upgrade
