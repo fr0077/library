@@ -11,4 +11,4 @@ nvim +PlugUpdate +UpdateRemotePlugins +qall
 
 stack upgrade
 
-tlmgr update --all
+sudo tlmgr update --all
